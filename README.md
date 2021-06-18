@@ -1,0 +1,1 @@
+# gimp-script-fu-resize-image
