@@ -6,7 +6,7 @@
             (theImageHeight 0)
             (theNewImageWidth inWidth)
             (theNewImageHeight 0)
-            (theImage)  ; to hold the image that will beloaded from a file
+            (theImage)  ; to hold the image that will be loaded from a file
             (theLayer)
             (theNewFilename inFilename) ; the output file same as input, so file is overwritten!!
             
@@ -30,11 +30,11 @@
     "Resize Image"                                      ;menu label
     "Resizes an Image according to the user's\
      choice of new width. The height is 
-     calculated proportionally."                  ;description
+     calculated proportionally."                    ;description
     "Robert Purvis"                                 ;author
     "Copyright 2021, Robert Purvis"                 ;copyright notice
     "7 June 2021"                                   ;date created
-    ""                                      ;image type that the script works on
+    ""                                              ;image type that the script works on
     SF-FILENAME     "Filename"      "example.jpg"
     SF-VALUE        "New width"     "1024"          ;a string variable
 )
